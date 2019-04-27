@@ -1,0 +1,13 @@
+[Unit]
+Description=KPUCrawl 3
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+ExecStart=/usr/bin/php /home/amarullz/pantau/02_get_suara.php 58285,60371,61965,64111,65702,67393,69268
+
+[Install]
+WantedBy=multi-user.target

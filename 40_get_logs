@@ -1,0 +1,4 @@
+#!/bin/sh
+sudo sudo journalctl -f -u kpu$1
+
+

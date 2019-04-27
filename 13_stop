@@ -1,0 +1,16 @@
+#!/bin/sh
+systemctl stop kpu1
+systemctl stop kpu2
+systemctl stop kpu3
+systemctl stop kpu4
+systemctl stop kpu5
+
+sleep 2
+
+killall php
+killall php
+killall 03_loop_suara.sh
+killall 03_loop_suara.sh
+
+
+

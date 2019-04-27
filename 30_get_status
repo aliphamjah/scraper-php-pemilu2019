@@ -1,0 +1,8 @@
+#!/bin/sh
+sudo systemctl status kpu1
+sudo systemctl status kpu2
+sudo systemctl status kpu3
+sudo systemctl status kpu4
+sudo systemctl status kpu5
+
+
