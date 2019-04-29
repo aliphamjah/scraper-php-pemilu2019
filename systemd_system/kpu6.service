@@ -1,0 +1,13 @@
+[Unit]
+Description=Pantau Crawler
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+ExecStart=/usr/bin/php /home/amarullz/pantau/03_get_pantau.php
+
+[Install]
+WantedBy=multi-user.target

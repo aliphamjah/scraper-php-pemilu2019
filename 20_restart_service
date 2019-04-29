@@ -4,5 +4,5 @@ sudo systemctl restart kpu2
 sudo systemctl restart kpu3
 sudo systemctl restart kpu4
 sudo systemctl restart kpu5
-
+sudo systemctl restart kpu6
 
